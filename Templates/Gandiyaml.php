@@ -1,8 +1,8 @@
 <?php
 
-namespace Novutec\WhoisParser\Templates;
+namespace Ingenki\WhoisParser\Templates;
 
-use Novutec\WhoisParser\Templates\Type\Yaml;
+use Ingenki\WhoisParser\Templates\Type\Yaml;
 
 class Gandiyaml extends Yaml
 {

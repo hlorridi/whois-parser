@@ -1,6 +1,6 @@
 <?php
 
-namespace Novutec\WhoisParser\Result;
+namespace Ingenki\WhoisParser\Result;
 
 class OtherResult extends AbstractResult {
 }

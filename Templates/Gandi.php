@@ -1,9 +1,9 @@
 <?php
 
-namespace Novutec\WhoisParser\Templates;
+namespace Ingenki\WhoisParser\Templates;
 
-use Novutec\WhoisParser\Templates\Type\AbstractTemplate;
-use Novutec\WhoisParser\Templates\Type\Proxy;
+use Ingenki\WhoisParser\Templates\Type\AbstractTemplate;
+use Ingenki\WhoisParser\Templates\Type\Proxy;
 
 /**
  * Gandi are real 'fun' and will change the output format based upon the domain requested.
@@ -22,7 +22,7 @@ class Gandi extends Proxy
     );
 
     /**
-     * @param \Novutec\WhoisParser\Result\Result $result
+     * @param \Ingenki\WhoisParser\Result\Result $result
      * @param $rawdata
      * @param string|object $query
      */

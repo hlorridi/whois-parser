@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
- * @category   Novutec
+ * @category   Ingenki
  * @package    DomainParser
  * @copyright  Copyright (c) 2007 - 2013 Novutec Inc. (http://www.novutec.com)
  * @license    http://www.apache.org/licenses/LICENSE-2.0
  */
 
 /**
- * @namespace Novutec\WhoisParser\Templates
+ * @namespace Ingenki\WhoisParser\Templates
  */
-namespace Novutec\WhoisParser\Templates;
+namespace Ingenki\WhoisParser\Templates;
 
-use Novutec\WhoisParser\Templates\Type\Regex;
+use Ingenki\WhoisParser\Templates\Type\Regex;
 
 /**
  * Template for IANA #269, #648, #1387, #1408, #1420
  *
- * @category   Novutec
+ * @category   Ingenki
  * @package    WhoisParser
  * @copyright  Copyright (c) 2007 - 2013 Novutec Inc. (http://www.novutec.com)
  * @license    http://www.apache.org/licenses/LICENSE-2.0

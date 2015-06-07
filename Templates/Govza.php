@@ -1,8 +1,8 @@
 <?php
 
-namespace Novutec\WhoisParser\Templates;
+namespace Ingenki\WhoisParser\Templates;
 
-use Novutec\WhoisParser\Templates\Type\KeyValue;
+use Ingenki\WhoisParser\Templates\Type\KeyValue;
 
 class Govza extends KeyValue
 {

@@ -1,16 +1,16 @@
 <?php
 
-namespace Novutec\WhoisParser\Templates\Type;
+namespace Ingenki\WhoisParser\Templates\Type;
 
-use Novutec\WhoisParser\Exception\ReadErrorException;
-use Novutec\WhoisParser\Result\Result;
+use Ingenki\WhoisParser\Exception\ReadErrorException;
+use Ingenki\WhoisParser\Result\Result;
 
 /**
  * Parser based on simple responses containing only 'key: value' entries.
  * An alternative to the default regex-blocks based parser that allows us to not care about missing entries
  * or the order of entries
  *
- * @package Novutec\WhoisParser\Templates\Type
+ * @package Ingenki\WhoisParser\Templates\Type
  */
 abstract class KeyValue extends AbstractTemplate
 {
@@ -29,10 +29,10 @@ abstract class KeyValue extends AbstractTemplate
 
 
     /**
-     * @param \Novutec\WhoisParser\Result\Result $previousResult
+     * @param \Ingenki\WhoisParser\Result\Result $previousResult
      * @param $rawdata
      * @param string|object $query
-     * @throws \Novutec\WhoisParser\Exception\ReadErrorException if data was read from the whois response
+     * @throws \Ingenki\WhoisParser\Exception\ReadErrorException if data was read from the whois response
      */
     public function parse($previousResult, $rawdata, $query)
     {

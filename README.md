@@ -31,7 +31,7 @@ require_once 'WhoisParser/Parser.php';
 
 * Create Parser() object
 ```
-$Parser = new Novutec\WhoisParser\Parser();
+$Parser = new Ingenki\WhoisParser\Parser();
 ```
 
 * Call lookup() method
@@ -53,7 +53,7 @@ xml. By default it is object. If you want to change that call the format method 
 the parse method or provide to the constructer.
 ```
 $Parser->setFormat('json');
-$Parser = new Novutec\WhoisParser\Parser('json');
+$Parser = new Ingenki\WhoisParser\Parser('json');
 ```
 
 * You may set your own date format if you like. Please check http://php.net/strftime for further

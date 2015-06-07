@@ -1,9 +1,9 @@
 <?php
 
-namespace Novutec\WhoisParser\Templates;
+namespace Ingenki\WhoisParser\Templates;
 
-use Novutec\WhoisParser\Adapter\AbstractAdapter;
-use Novutec\WhoisParser\Templates\Type\KeyValue;
+use Ingenki\WhoisParser\Adapter\AbstractAdapter;
+use Ingenki\WhoisParser\Templates\Type\KeyValue;
 
 class Ci extends KeyValue
 {

@@ -13,21 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
- * @category   Novutec
+ * @category   Ingenki
  * @package    WhoisParser
  * @copyright  Copyright (c) 2007 - 2013 Novutec Inc. (http://www.novutec.com)
  * @license    http://www.apache.org/licenses/LICENSE-2.0
  */
 
 /**
- * @namespace Novutec\WhoisParser\Exception
+ * @namespace Ingenki\WhoisParser\Exception
  */
-namespace Novutec\WhoisParser\Exception;
+namespace Ingenki\WhoisParser\Exception;
 
 /**
  * ConnectErrorException
  *
- * @category   Novutec
+ * @category   Ingenki
  * @package    WhoisParser
  * @copyright  Copyright (c) 2007 - 2013 Novutec Inc. (http://www.novutec.com)
  * @license    http://www.apache.org/licenses/LICENSE-2.0

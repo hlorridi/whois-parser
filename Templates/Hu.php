@@ -1,6 +1,6 @@
 <?php
 
-namespace Novutec\WhoisParser\Templates;
+namespace Ingenki\WhoisParser\Templates;
 
 class Hu extends Standard
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Novutec\WhoisParser\Templates\Type;
+namespace Ingenki\WhoisParser\Templates\Type;
 
 /**
  * Parser designed for parsing layouts where each section is separated by a clear line and the values are

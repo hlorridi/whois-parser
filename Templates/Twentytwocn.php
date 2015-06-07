@@ -1,8 +1,8 @@
 <?php
 
-namespace Novutec\WhoisParser\Templates;
+namespace Ingenki\WhoisParser\Templates;
 
-use Novutec\WhoisParser\Templates\Type\Regex;
+use Ingenki\WhoisParser\Templates\Type\Regex;
 
 class Twentytwocn extends Regex {
 

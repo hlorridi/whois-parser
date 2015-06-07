@@ -1,8 +1,8 @@
 <?php
 
-namespace Novutec\WhoisParser\Templates;
+namespace Ingenki\WhoisParser\Templates;
 
-use Novutec\WhoisParser\Templates\Type\KeyValue;
+use Ingenki\WhoisParser\Templates\Type\KeyValue;
 
 class To extends KeyValue {
 
@@ -14,10 +14,10 @@ class To extends KeyValue {
 
 
     /**
-     * @param \Novutec\WhoisParser\Result\Result $previousResult
+     * @param \Ingenki\WhoisParser\Result\Result $previousResult
      * @param $rawdata
      * @param string|object $query
-     * @throws \Novutec\WhoisParser\Exception\ReadErrorException if data was read from the whois response
+     * @throws \Ingenki\WhoisParser\Exception\ReadErrorException if data was read from the whois response
      */
     public function parse($previousResult, $rawdata, $query)
     {

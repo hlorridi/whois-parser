@@ -1,8 +1,8 @@
 <?php
 
-namespace Novutec\WhoisParser\Templates;
+namespace Ingenki\WhoisParser\Templates;
 
-use Novutec\WhoisParser\Templates\Type\IndentedBlocks;
+use Ingenki\WhoisParser\Templates\Type\IndentedBlocks;
 
 class Janet extends IndentedBlocks
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Novutec\WhoisParser\Templates;
+namespace Ingenki\WhoisParser\Templates;
 
 /**
  * Chengdu have a weird whois protection system where they blank out even values like creation date,

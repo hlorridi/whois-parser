@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
- * @category   Novutec
+ * @category   Ingenki
  * @package    DomainParser
  * @copyright  Copyright (c) 2007 - 2013 Novutec Inc. (http://www.novutec.com)
  * @license    http://www.apache.org/licenses/LICENSE-2.0
  */
 
 /**
- * @namespace Novutec\WhoisParser\Templates\Type
+ * @namespace Ingenki\WhoisParser\Templates\Type
  */
-namespace Novutec\WhoisParser\Templates\Type;
+namespace Ingenki\WhoisParser\Templates\Type;
 
-use Novutec\WhoisParser\Exception\RateLimitException;
+use Ingenki\WhoisParser\Exception\RateLimitException;
 
 /**
  * WhoisParser AbstractTemplate
  *
- * @category   Novutec
+ * @category   Ingenki
  * @package    WhoisParser
  * @copyright  Copyright (c) 2007 - 2013 Novutec Inc. (http://www.novutec.com)
  * @license    http://www.apache.org/licenses/LICENSE-2.0
@@ -113,8 +113,8 @@ abstract class AbstractTemplate
         } elseif ((strlen($customNamespace) > 1) && class_exists($customNamespace . $template)) {
             $class = $customNamespace . $template;
             $obj = new $class();
-        } elseif (class_exists('Novutec\WhoisParser\Templates\\'. $template)) {
-            $class = 'Novutec\WhoisParser\Templates\\'. $template;
+        } elseif (class_exists('Ingenki\WhoisParser\Templates\\'. $template)) {
+            $class = 'Ingenki\WhoisParser\Templates\\'. $template;
             $obj = new $class();
         }
         return $obj;
@@ -129,10 +129,10 @@ abstract class AbstractTemplate
 
 
     /**
-     * @param \Novutec\WhoisParser\Result\Result $previousResult
+     * @param \Ingenki\WhoisParser\Result\Result $previousResult
      * @param $rawdata
      * @param string|object $query
-     * @throws \Novutec\WhoisParser\Exception\ReadErrorException if data was read from the whois response
+     * @throws \Ingenki\WhoisParser\Exception\ReadErrorException if data was read from the whois response
      */
     public abstract function parse($previousResult, $rawdata, $query);
 
@@ -171,7 +171,7 @@ abstract class AbstractTemplate
     /**
      * Parse the raw data using the available regex list
      * @param string $rawdata
-     * @param \Novutec\WhoisParser\Result\Result $result
+     * @param \Ingenki\WhoisParser\Result\Result $result
      * @return bool Parsed & matched?
      */
     protected function parseAvailable($rawdata, $result)

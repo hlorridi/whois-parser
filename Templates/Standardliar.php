@@ -1,8 +1,8 @@
 <?php
 
-namespace Novutec\WhoisParser\Templates;
+namespace Ingenki\WhoisParser\Templates;
 
-use Novutec\WhoisParser\Result\Result;
+use Ingenki\WhoisParser\Result\Result;
 
 /**
  * Some DNS servers have been found to lie about domain status, causing a domain that we already know is registered

@@ -1,6 +1,6 @@
 <?php
 
-namespace Novutec\WhoisParser\Templates\Type;
+namespace Ingenki\WhoisParser\Templates\Type;
 
 /**
  * Some servers can't be served by a single template (for example, because they return different output based on
@@ -16,7 +16,7 @@ class Proxy extends AbstractTemplate
     protected $template = null;
 
     /**
-     * @param \Novutec\WhoisParser\Result\Result $result
+     * @param \Ingenki\WhoisParser\Result\Result $result
      * @param $rawdata
      * @param string|object $query
      */

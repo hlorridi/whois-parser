@@ -13,21 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
- * @category   Novutec
+ * @category   Ingenki
  * @package    WhoisParser
  * @copyright  Copyright (c) 2007 - 2013 Novutec Inc. (http://www.novutec.com)
  * @license    http://www.apache.org/licenses/LICENSE-2.0
  */
 
 /**
- * @namespace Novutec\WhoisParser\Adapter
+ * @namespace Ingenki\WhoisParser\Adapter
  */
-namespace Novutec\WhoisParser\Adapter;
+namespace Ingenki\WhoisParser\Adapter;
 
 /**
  * WhoisParser AbstractAdapter
  * 
- * @category   Novutec
+ * @category   Ingenki
  * @package    WhoisParser
  * @copyright  Copyright (c) 2007 - 2013 Novutec Inc. (http://www.novutec.com)
  * @license    http://www.apache.org/licenses/LICENSE-2.0
@@ -89,8 +89,8 @@ abstract class AbstractAdapter
         } elseif ((strlen($customNamespace) > 1) && class_exists($customNamespace . ucfirst($type))) {
             $class = $customNamespace . ucfirst($type);
             $obj = new $class($proxyConfig);
-        } elseif (class_exists('Novutec\WhoisParser\Adapter\\'. ucfirst($type))) {
-            $class = 'Novutec\WhoisParser\Adapter\\' . ucfirst($type);
+        } elseif (class_exists('Ingenki\WhoisParser\Adapter\\'. ucfirst($type))) {
+            $class = 'Ingenki\WhoisParser\Adapter\\' . ucfirst($type);
             $obj = new $class($proxyConfig);
         }
         return $obj;

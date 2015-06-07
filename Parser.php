@@ -13,31 +13,31 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
- * @category   Novutec
+ * @category   Ingenki
  * @package    WhoisParser
  * @copyright  Copyright (c) 2007 - 2013 Novutec Inc. (http://www.novutec.com)
  * @license    http://www.apache.org/licenses/LICENSE-2.0
  */
 
 /**
- * @namespace Novutec\WhoisParser
+ * @namespace Ingenki\WhoisParser
  */
-namespace Novutec\WhoisParser;
+namespace Ingenki\WhoisParser;
 
 /**
  * @see Result/Result
  */
 require_once 'Result/Result.php';
 
-use Novutec\WhoisParser\Adapter\AbstractAdapter;
-use Novutec\WhoisParser\Config\Config;
-use Novutec\WhoisParser\Exception\AbstractException;
-use Novutec\WhoisParser\Exception\NoAdapterException;
-use Novutec\WhoisParser\Exception\NoQueryException;
-use Novutec\WhoisParser\Exception\NoTemplateException;
-use Novutec\WhoisParser\Exception\RateLimitException;
-use Novutec\WhoisParser\Result\Result;
-use Novutec\WhoisParser\Templates\Type\AbstractTemplate;
+use Ingenki\WhoisParser\Adapter\AbstractAdapter;
+use Ingenki\WhoisParser\Config\Config;
+use Ingenki\WhoisParser\Exception\AbstractException;
+use Ingenki\WhoisParser\Exception\NoAdapterException;
+use Ingenki\WhoisParser\Exception\NoQueryException;
+use Ingenki\WhoisParser\Exception\NoTemplateException;
+use Ingenki\WhoisParser\Exception\RateLimitException;
+use Ingenki\WhoisParser\Result\Result;
+use Ingenki\WhoisParser\Templates\Type\AbstractTemplate;
 
 /**
  * WhoisParser
@@ -47,7 +47,7 @@ use Novutec\WhoisParser\Templates\Type\AbstractTemplate;
  * that parses a variety of free form WHOIS data into well-structured data that your
  * application may read. Also returns an indication of whether a domain is available.
  *
- * @category   Novutec
+ * @category   Ingenki
  * @package    WhoisParser
  * @copyright  Copyright (c) 2007 - 2013 Novutec Inc. (http://www.novutec.com)
  * @license    http://www.apache.org/licenses/LICENSE-2.0
@@ -82,7 +82,7 @@ class Parser
     /**
      * WhoisParserResult object
      * 
-     * @var \Novutec\WhoisParser\Result\Result
+     * @var \Ingenki\WhoisParser\Result\Result
      * @access protected
      */
     protected $Result;

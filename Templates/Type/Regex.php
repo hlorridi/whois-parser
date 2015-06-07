@@ -1,13 +1,13 @@
 <?php
 
-namespace Novutec\WhoisParser\Templates\Type;
+namespace Ingenki\WhoisParser\Templates\Type;
 
 abstract class Regex extends AbstractTemplate {
 
     protected $convertFromHtml = false;
 
     /**
-     * @param \Novutec\WhoisParser\Result\Result $result
+     * @param \Ingenki\WhoisParser\Result\Result $result
      * @param $rawdata
      * @param string|object $query
      */

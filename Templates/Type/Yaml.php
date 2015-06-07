@@ -1,16 +1,16 @@
 <?php
 
-namespace Novutec\WhoisParser\Templates\Type;
+namespace Ingenki\WhoisParser\Templates\Type;
 
-use Novutec\WhoisParser\Exception\ReadErrorException;
-use Novutec\WhoisParser\Result\Result;
+use Ingenki\WhoisParser\Exception\ReadErrorException;
+use Ingenki\WhoisParser\Result\Result;
 use Symfony\Component\Yaml\Parser;
 
 class Yaml extends KeyValue
 {
 
     /**
-     * @param \Novutec\WhoisParser\Result\Result $previousResult
+     * @param \Ingenki\WhoisParser\Result\Result $previousResult
      * @param $rawdata
      * @param string|object $query
      */

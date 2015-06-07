@@ -1,13 +1,13 @@
 <?php
 
-namespace Novutec\WhoisParser\Templates;
+namespace Ingenki\WhoisParser\Templates;
 
-use Novutec\WhoisParser\Templates\Type\KeyValue;
+use Ingenki\WhoisParser\Templates\Type\KeyValue;
 
 /**
  * A 'standard' template that will parse most key: value reponses
  *
- * @package Novutec\WhoisParser\Templates
+ * @package Ingenki\WhoisParser\Templates
  */
 class Standard extends KeyValue
 {
